@@ -11,3 +11,4 @@ rand-int-util.py: have the computer generate a random integer from ARGV input
 raw-data-dump.py: display binary data in a better format
 
 string-replacement.py: acts to replace a string with another string
+regular expression style
