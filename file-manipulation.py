@@ -8,7 +8,7 @@ myf.close()
 print("created 1.txt")
 input('--> ')
 
-os.rename('1.txt', '2.txt')
+os.rename('1.txt', '2.txt')   #REM 2.txt gets replaced even if 2.txt exists
 print("moved 1.txt to 2.txt\n")
 input('--> ')
 
