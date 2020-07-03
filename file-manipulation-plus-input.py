@@ -8,7 +8,7 @@ with open('a.txt', 'w') as myf:
       szInput = input('--> ')
       if szInput == '':
          break
-      print(szInput, file=myf)
+      print(szInput, file=myf, end='')
 
 print(str(myf.closed))  #True
 print("put contents into a.txt\n")
