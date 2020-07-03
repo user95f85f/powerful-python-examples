@@ -2,7 +2,7 @@
 
 import os #for rename of file and removal of file functionality
 
-print("give me input to put into a.txt\n");
+print('give me input to put into a.txt');
 with open('a.txt', 'w') as myf:
    while True:
       szInput = input('--> ')
@@ -11,14 +11,14 @@ with open('a.txt', 'w') as myf:
       print(szInput, file=myf, end='')
 
 print(str(myf.closed))  #True
-print("put contents into a.txt\n")
+print('put contents into a.txt')
 input('--> ')
 
 os.rename('a.txt', 'b.txt')
-print("moved a.txt to b.txt\n")
+print('moved a.txt to b.txt')
 input('--> ')
 
 os.remove('b.txt')
-print("removed b.txt\n")
+print('removed b.txt')
 input('--> ')
-print("exiting..\n")
+print('exiting..')
