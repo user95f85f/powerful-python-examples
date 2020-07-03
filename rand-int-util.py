@@ -6,7 +6,10 @@ import sys
 if len(sys.argv) != 3:
    exit(1)
 
-print(str(random.randint(int(sys.argv[1]), int(sys.argv[2]))))
+try:
+   print(str(random.randint(int(sys.argv[1]), int(sys.argv[2]))))
+except:
+   exit(2)
 
 
 #~$ python3 randint.py 1 2
